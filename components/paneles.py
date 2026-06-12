@@ -6,11 +6,13 @@ from plotly.subplots import make_subplots
 import sys
 from pathlib import Path
 
+from shared import FECHA_MAX, FECHA_MIN, TEMPORADAS
+
 ruta_raiz = Path(__file__).resolve().parent.parent
 if str(ruta_raiz) not in sys.path:
     sys.path.append(str(ruta_raiz))
 
-from shared import simpsons_park, COLORES, ESCALA_CALIFICACION, FECHA_MIN, FECHA_MAX, TEMPORADAS
+#from shared import simpsons_park, COLORES, ESCALA_CALIFICACION, FECHA_MIN, FECHA_MAX, TEMPORADAS
 
 
 def panel_rating():

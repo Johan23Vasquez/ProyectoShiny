@@ -4,11 +4,13 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import pandas as pd
 
-from shared import (
-    simpsons_park,
-    COLORES,
-    ESCALA_CALIFICACION,
-)
+from shared import simpsons_park,COLORES, ESCALA_CALIFICACION
+
+# from shared import (
+#     simpsons_park,
+#     COLORES,
+#     ESCALA_CALIFICACION,
+# )
 
 def server(input, output, session):
 
